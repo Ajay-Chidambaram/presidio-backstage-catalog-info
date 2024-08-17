@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
   - ./org.yaml
+  - ./team-a.yaml
