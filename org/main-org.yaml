@@ -7,4 +7,6 @@ metadata:
     aws.amazon.com/cost-insights-tags: team
 spec:
   type: team
+  profile:
+    displayName: Presidio
   children: [appdev, data, devops, guests]
