@@ -9,6 +9,17 @@ spec:
   type: team
   children: []
 ---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backstage
+  annotations:
+    aws.amazon.com/cost-insights-tags: purpose=learning
+spec:
+  type: team
+  children: []
+---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
