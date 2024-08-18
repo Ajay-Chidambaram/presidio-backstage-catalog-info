@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: data
+  description: Data Team
+  annotations:
+    aws.amazon.com/cost-insights-tags: team=data
+spec:
+  type: team
+  profile:
+    displayName: Data
+    email: data@example.com
+    picture: https://api.dicebear.com/9.x/icons/svg?seed=Boo&background=transparent
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: menaka
+spec:
+  profile:
+    displayName: Menaka
+    email: menaka@example.com
+    picture: https://api.dicebear.com/7.x/initials/svg?seed=MK
+  memberOf: [data]

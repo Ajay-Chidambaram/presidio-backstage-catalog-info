@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: DevOps
+  description: DevOps Team
+  annotations:
+    aws.amazon.com/cost-insights-tags: team=devops
+spec:
+  type: team
+  profile:
+    displayName: DevOps
+    email: DevOps@example.com
+    picture: https://api.dicebear.com/9.x/icons/svg?seed=Boo&background=transparent
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: chidambaram
+spec:
+  profile:
+    displayName: Chidambaram
+    email: ck@example.com
+    picture: https://api.dicebear.com/7.x/initials/svg?seed=CK
+  memberOf: [DevOps]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: solomon
+spec:
+  profile:
+    displayName: SolomonRaj
+    email: sa@example.com
+    picture: https://api.dicebear.com/7.x/initials/svg?seed=SA
+  memberOf: [DevOps]

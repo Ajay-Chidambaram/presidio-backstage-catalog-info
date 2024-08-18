@@ -1,0 +1,10 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: presidio
+  annotations:
+    aws.amazon.com/cost-insights-tags: team
+spec:
+  type: team
+  children: [appdev, data, devops, guests]

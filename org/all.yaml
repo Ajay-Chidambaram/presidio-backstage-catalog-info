@@ -5,5 +5,8 @@ metadata:
   description: A collection of all Presidio Demo Org entities
 spec:
   targets:
-  - ./org.yaml
-  - ./team-a.yaml
+  - ./guest-org.yaml
+  - ./main-org.yaml
+  - ./appdev.yaml
+  - ./devops.yaml
+  - ./data.yaml
