@@ -7,3 +7,8 @@ spec:
   targets:
   - ./terraform_tpl.yaml
   - ./kubernetes_tpl.yaml
+  - ./postgres_db_tpl.yaml
+  - ./mysql_db_tpl.yaml
+  - ./nodejs_microservice_tpl.yaml
+  - ./go_microservice_tpl.yaml
+  - ./azure_terraform_tpl.yaml
