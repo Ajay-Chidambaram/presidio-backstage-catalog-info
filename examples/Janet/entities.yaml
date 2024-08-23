@@ -3,6 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: janet
+  description: |
+    Employee-Information application
 spec:
   owner: appdev
 ---
@@ -14,9 +16,9 @@ metadata:
   description: |
     The frontend for the janet application.
   tags:
-  - Appdev
-  - Frontend
-  - React
+  - appdev
+  - frontend
+  - react
 spec:
   type: website
   lifecycle: experimental
@@ -31,9 +33,9 @@ metadata:
   description: |
     The backend for the Janet application.
   tags:
-  - Appdev
-  - Backend
-  - Node.js
+  - appdev
+  - backend
+  - node.js
 spec:
   type: service
   lifecycle: experimental

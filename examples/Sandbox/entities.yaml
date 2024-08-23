@@ -2,24 +2,26 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: parkitperfect
+  name: sandbox
   description: |
-    Vehicle-Parking application
+    Sandbox environment
 spec:
-  owner: office-admin
+  owner: devops
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vehicle-details
+  name: k8s-cluster
   description: |
-    The Vehicle details from the ParkItPerfect application.
+    The Kubernetes cluster for the Sandbox environment.
   tags:
-  - office-admin
-  - storage
+  - devops
+  - kubernetes
+  - cluster
+  - aws
 spec:
   type: service
   lifecycle: experimental
-  owner: office-admin
-  system: parkitperfect
+  owner: devops
+  system: sandbox

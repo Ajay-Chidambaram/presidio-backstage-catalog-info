@@ -3,6 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: concur
+  description: |
+    Expense-Management application
 spec:
   owner: data
 ---
@@ -14,9 +16,9 @@ metadata:
   description: |
     The frontend for the Concur application.
   tags:
-  - Data
-  - Frontend
-  - React
+  - data
+  - frontend
+  - react
 spec:
   type: website
   lifecycle: experimental
@@ -32,8 +34,8 @@ metadata:
     The backend for the Concur application.
   tags:
   - data
-  - Backend
-  - Node.js
+  - backend
+  - node.js
 spec:
   type: service
   lifecycle: experimental
