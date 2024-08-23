@@ -1,0 +1,41 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: concur
+spec:
+  owner: appdev
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: concur-frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: appdev
+  system: concur
+  description: |
+    The frontend for the Concur application.
+  tags:
+  - AppDev
+  - Frontend
+  - React
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: concur-backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: appdev
+  system: concur
+  description: |
+    The backend for the Concur application.
+  tags:
+  - AppDev
+  - Backend
+  - Node.js
+---
