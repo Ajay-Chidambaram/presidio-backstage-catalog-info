@@ -2,41 +2,41 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: concur
+  name: janet
 spec:
-  owner: data
+  owner: appdev
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: concur-frontend
+  name: janet-frontend
   description: |
-    The frontend for the Concur application.
+    The frontend for the janet application.
   tags:
-  - Data
+  - Appdev
   - Frontend
   - React
 spec:
   type: website
   lifecycle: experimental
-  owner: data
-  system: concur
+  owner: appdev
+  system: janet
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: concur-backend
+  name: janet-backend
   description: |
-    The backend for the Concur application.
+    The backend for the Janet application.
   tags:
-  - data
+  - Appdev
   - Backend
   - Node.js
 spec:
   type: service
   lifecycle: experimental
-  owner: data
-  system: concur
+  owner: appdev
+  system: janet
 ---

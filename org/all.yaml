@@ -10,3 +10,4 @@ spec:
   - ./appdev.yaml
   - ./devops.yaml
   - ./data.yaml
+  - ./office-admin.yaml

@@ -1,0 +1,23 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: parkitperfect
+spec:
+  owner: office-admin
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vehicle-details
+  description: |
+    The Vehicle details from the ParkItPerfect application.
+  tags:
+  - Office-Admin
+  - Storage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: office-admin
+  system: parkitperfect

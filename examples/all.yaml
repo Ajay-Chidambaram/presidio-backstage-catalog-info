@@ -7,3 +7,5 @@ spec:
   targets:
   - ./entities.yaml
   - ./Concur/entities.yaml
+  - ./Janet/entities.yaml
+  - ./ParkItPerfect/entities.yaml
