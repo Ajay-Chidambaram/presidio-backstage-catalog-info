@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: DevOps
+  name: devops
   description: DevOps Team
   annotations:
     aws.amazon.com/cost-insights-tags: team=devops
@@ -23,7 +23,7 @@ spec:
     displayName: Chidambaram
     email: ck@example.com
     picture: https://api.dicebear.com/7.x/initials/svg?seed=CK
-  memberOf: [DevOps]
+  memberOf: [devops]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -34,4 +34,4 @@ spec:
     displayName: SolomonRaj
     email: sa@example.com
     picture: https://api.dicebear.com/7.x/initials/svg?seed=SA
-  memberOf: [DevOps]
+  memberOf: [devops]
