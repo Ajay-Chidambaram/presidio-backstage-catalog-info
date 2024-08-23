@@ -35,7 +35,7 @@ metadata:
   tags:
   - appdev
   - backend
-  - node.js
+  - nodejs
 spec:
   type: service
   lifecycle: experimental
