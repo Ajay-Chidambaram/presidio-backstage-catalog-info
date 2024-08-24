@@ -9,7 +9,7 @@ spec:
   type: team
   profile:
     displayName: DevOps
-    email: DevOps@example.com
+    email: devops@example.com
     picture: https://api.dicebear.com/9.x/icons/svg?seed=Boo&background=transparent
   parent: backstage
   children: []

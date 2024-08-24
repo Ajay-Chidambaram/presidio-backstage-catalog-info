@@ -9,3 +9,4 @@ spec:
   - ./Concur/entities.yaml
   - ./Janet/entities.yaml
   - ./ParkItPerfect/entities.yaml
+  - ./Sandbox/entities.yaml
